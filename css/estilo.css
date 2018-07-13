@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banner img{
+display: flex;
+justify-content: center;
+border-top: 7px solid rgb(46, 203, 112);
+height: 515px;
+width: 100%;
+}
+
+#texto{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px; 
+}
+
+#texto h1{
+    display: inline;
+    font-family: 'Pacifico', cursive;
+    font-size: 46px;
+}
+
+#texto h2{
+    color: rgb(46, 203, 112);
+    display: inline;
+    font-size: 46px;
+}
+
+#mao{
+    position: absolute;
+    top: 85px;
+    left: 56%;
+}
+
+#icones{
+    position: absolute;
+    top: 95%;
+    background-color: rgb(0, 0, 0);
+}
+
+#icones img{
+}
